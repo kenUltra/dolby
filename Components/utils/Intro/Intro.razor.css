@@ -1,0 +1,131 @@
+.intro-tech {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	background: var(--bg-color-head);
+}
+.title,
+.hero-icon-detail,
+.dolby-tch,
+.out-put {
+	display: block;
+}
+.container-title,
+.hide-value {
+	position: absolute;
+	inset: 0;
+}
+.hide-value {
+	z-index: 6;
+}
+.container-title {
+	display: flex;
+	align-items: center;
+}
+.container-title {
+	flex-direction: column;
+	justify-content: center;
+	z-index: 2;
+}
+.content-title {
+	width: 88%;
+}
+.h-title {
+	width: 280px;
+	font-size: 45px;
+}
+.dolby-ic-wp {
+	position: absolute;
+	inset: 0;
+	z-index: 60;
+}
+.dolby-ic-wp > span,
+.list-content-hero,
+.list-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.dolby-ic-wp > span {
+	--base-ic-color: var(--bg-color);
+	--ic-color: var(--base-ic-color);
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.dolby-ic-wp > span > svg {
+	--size-svg-signal: var(--ic-color);
+	--svg-value: var(--size-svg-signal);
+}
+.dolby-ic-wp > span > svg {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	fill: var(--svg-value);
+	background: var(--color-transparent);
+	transition: all 380ms ease;
+}
+.dolby-ic-wp > span > svg g {
+	position: relative;
+	stroke: var(--color-gr-01) !important;
+	stroke-width: 0.3px !important;
+	transition: all 310ms cubic-bezier(0.19, 0.04, 0.96, 1);
+	z-index: 50;
+}
+.value-ctx {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 157px;
+	background-color: var(--bg-color);
+	background-image: linear-gradient(180deg, var(--bg-color-head), transparent);
+}
+.list-container {
+	flex-direction: column;
+	justify-content: flex-end;
+	margin-bottom: 1rem;
+}
+.list-container {
+	display: flex;
+}
+.list-content-hero {
+	position: absolute;
+    bottom: 15px;
+    gap: 0 20px;
+    z-index: 500;
+}
+.bg.svg-tr-zoom > svg {
+	transform: scale(1.35);
+	/* background: var(--bg-color); */
+}
+.bg.svg-tr-zoom > svg > g {
+	stroke-width: 0.13px !important;
+}
+
+@media only screen and (min-width: 970px) {
+	.h-title {
+		width: 415px;
+		font-size: 70px;
+	}
+}
+@media only screen and (max-width: 928px) {
+	.h-title {
+		width: 290px;
+		font-size: 40px;
+	}
+}
+@media only screen and (max-width: 620px) {
+	.h-title {
+		width: 235px;
+		font-size: 30px;
+	}
+}
+@media only screen and (max-width: 460px) {
+	.h-title {
+		width: 170px;
+		font-size: 22px;
+	}
+}

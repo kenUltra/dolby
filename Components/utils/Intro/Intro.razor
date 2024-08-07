@@ -1,0 +1,73 @@
+@rendermode InteractiveServer
+
+<div class="intro-tech">
+   <div class="out-put bg-ctx">
+      <div class="list-container">
+         <div class="list-content-hero">
+            @ChildContent
+         </div>
+      </div>
+   </div>
+   <div class="hide-value"></div>
+   <div class="title">
+      <div class="container-title">
+         <div class="content-title">
+             <h1 class="h-title"> @TitleStack</h1>  
+         </div>
+      </div>
+   </div>
+   <div class="hide-value">
+      <div class="value-ctx"></div>
+      @* <h2>@st()</h2> *@
+      
+   </div>
+   <div class="hero-intro"></div>
+   <div class="hero-icon-detail">
+         <div class="dolby-tch">
+            <div class="dolby-ic-wp @hoverValue">
+               <span class="bg @zoom">
+                 <svg viewBox="0 0 23 16" class="double-d" style="display: block; fill: @bgPath" @onmouseout="outPage">
+                     <g data-svg-origin="11.499999797171133 8" transform="matrix(0.4199,0,0,0.4199,6.67115,4.6408)" style="transform-origin: 0px 0px; stroke-width: 6px; stroke: rgb(153, 153, 153); fill: @fillPath" @onmouseover="zoomPage"><path d="M.1 0h2.3c4.3 0 7.9 3.5 7.9 7.9s-3.5 7.9-7.9 7.9H.1V.1zm22.4 0h-2.3c-4.3 0-7.9 3.5-7.9 7.9s3.5 7.9 7.9 7.9h2.3V.1z"></path>
+                     </g>
+                     <defs>
+                        <image ></image>
+                     </defs>
+                 </svg>
+               </span>
+            </div>
+         </div>
+   </div>
+
+</div>
+
+
+@code {
+   private string hoverValue = "";
+
+    [Parameter]
+    public string? TitleStack { get; set; } = "";
+
+    [Parameter] 
+    public string? fillPath {get; set; } = "var(--color-transparent)";
+
+    [Parameter]
+    public RenderFragment? ChildContent { get; set; }
+
+    [Parameter]
+    public string? bgPath {get; set;} = "var(--bg-color)";
+
+   public string? zoom  {get; set;} = "";
+
+    public void mouseOver(){
+      hoverValue = "focus-home-data";
+    }
+    public void zoomPage(){
+      this.zoom = "svg-tr-zoom";
+    }
+    public void outPage(){
+      this.zoom = "out-pg";
+    }
+    public string st(){
+        return "Hello from function" + TitleStack;
+    }
+}

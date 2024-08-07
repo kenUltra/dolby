@@ -1,0 +1,132 @@
+.why-atmos[b-ghmcspochf] {
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+.why-atmos[b-ghmcspochf] {
+	position: relative;
+}
+.wp-bt[b-ghmcspochf],
+.sides[b-ghmcspochf] {
+	position: absolute;
+	inset: 0;
+	z-index: 3;
+}
+.sides[b-ghmcspochf] {
+	display: flex;
+	align-items: center;
+	width: 90%;
+	gap: 0px 5px;
+	margin: var(--sl-pt) var(--auto-macth);
+	z-index: 2;
+}
+.detail h5[b-ghmcspochf] {
+	font-size: 18px;
+}
+.detail h1[b-ghmcspochf] {
+	width: 85%;
+	font-size: 50px;
+	margin-top: 5px;
+}
+.detail > span[b-ghmcspochf] {
+	font-weight: 100;
+	line-height: 1.25;
+}
+.detail > span p[b-ghmcspochf] {
+	font-size: 18px;
+	margin: 20px 0px;
+}
+.left-side[b-ghmcspochf],
+.right-side[b-ghmcspochf] {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.left-side[b-ghmcspochf],
+.right-side[b-ghmcspochf] {
+	width: 50%;
+	height: 80%;
+}
+.gls-st[b-ghmcspochf],
+.description-page > video[b-ghmcspochf] {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.color-bg[b-ghmcspochf] {
+	position: relative;
+	width: 100%;
+	height: 6rem;
+	background-image: linear-gradient(180deg, color(display-p3 0 0 0.21), transparent);
+}
+.description-page[b-ghmcspochf] {
+	width: 80%;
+	height: 70%;
+}
+.description-page > video[b-ghmcspochf] {
+	object-fit: contain;
+	object-position: center;
+}
+@media only screen and (max-width: 950px) {
+	.detail h5[b-ghmcspochf] {
+		font-size: 15px;
+	}
+	.detail h1[b-ghmcspochf] {
+		font-size: 40px;
+	}
+	.detail > span p[b-ghmcspochf] {
+		font-size: 17px;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.detail h5[b-ghmcspochf] {
+		font-size: 14px;
+	}
+	.detail h1[b-ghmcspochf] {
+		font-size: 33px;
+	}
+	.detail > span p[b-ghmcspochf] {
+		font-size: 16px;
+		margin: 10px 0px;
+	}
+}
+@media only screen and (max-width: 690px) {
+	.sides[b-ghmcspochf] {
+		flex-direction: column;
+		justify-content: center;
+	}
+	.right-side[b-ghmcspochf],
+	.left-side[b-ghmcspochf] {
+		height: 40%;
+	}
+	.left-side[b-ghmcspochf] {
+		padding-top: 25px;
+		width: 85%;
+	}
+	.detail h1[b-ghmcspochf] {
+		width: 100%;
+	}
+	.right-side[b-ghmcspochf] {
+		width: 85%;
+		height: 45%;
+	}
+	.description-page[b-ghmcspochf] {
+		width: 90%;
+		height: 85%;
+	}
+}
+@media only screen and (max-width: 520px) {
+	.detail > p > span[b-ghmcspochf] {
+		font-size: 14px;
+	}
+}
+@media only screen and (max-width: 380px) {
+    .left-side[b-ghmcspochf]{
+        padding-top: 60px;
+    }
+	.detail h1[b-ghmcspochf] {
+		font-size: 26px;
+	}
+}

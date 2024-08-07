@@ -1,0 +1,48 @@
+@rendermode InteractiveServer
+
+<div class="content-ctx" @onclick="showStack">
+   <div class="home-ctx">
+        <div class="cover">
+          <div class="w-pic">
+            <video muted autoplay loop>
+               <source src="@coverImage" />
+            </video>
+          </div>
+        </div>    
+   </div>  
+
+   <div class="detail">
+      <span>
+        <p>@titleBar</p>
+      </span>
+   </div>
+
+   <div class="hidden"></div>
+</div>
+
+@code {
+  [Parameter]
+  public string? titleBar { get; set; } = "";
+
+  [Parameter]
+  public Action? checkStat { get; set; } = default!;
+
+  [Parameter]
+  public string? coverImage {get; set;} = "";
+
+  [Parameter]
+  public EventCallback<string> action  { get; set; }
+
+  private async Task showStack() {
+    await action.InvokeAsync(this.titleBar);
+  }
+
+
+  /*public void action(MouseEventArgs eventBase){
+  public EventCallback<string>? checkStat { get; set; } = default!; Action
+     Console.WriteLine("Hey apply change here " + eventBase.ClientX);
+    Console.WriteLine("Hey " + " " + other);
+  }
+  */
+  
+}

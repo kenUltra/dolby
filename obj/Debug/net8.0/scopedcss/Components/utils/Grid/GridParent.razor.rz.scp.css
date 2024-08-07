@@ -1,0 +1,109 @@
+.main-grid[b-1vpka36yzy] {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.content[b-1vpka36yzy] {
+	display: block;
+}
+.hidden-ft[b-1vpka36yzy] {
+	position: absolute;
+	inset: 0;
+	z-index: 2;
+}
+.content-title[b-1vpka36yzy] {
+	text-align: center;
+}
+.head-hr[b-1vpka36yzy] {
+	--pos-headline: 15px;
+	--change-ctx: var(--pos-headline);
+	width: 590px;
+	margin: calc(25px + var(--change-ctx)) var(--auto-macth) 0;
+}
+.head-hr > h1[b-1vpka36yzy] {
+	font-size: 65px;
+}
+.itms-parent[b-1vpka36yzy] {
+	width: 870px;
+	height: 100%;
+	margin: var(--sl-pt) var(--auto-macth);
+}
+.itms-parent[b-1vpka36yzy] {
+	display: grid;
+	grid-template-columns: repeat(12, minmax(0, 1fr));
+	grid-auto-rows: 2.72rem;
+	grid-column-gap: 5px;
+	grid-row-gap: 5px;
+}
+.main-gd-ctx[b-1vpka36yzy] {
+	position: absolute;
+	top: 15%;
+	left: 0;
+	right: 0;
+	height: 91rem;
+	/* overflow: hidden; */
+}
+
+@media only screen and (max-width: 980px) {
+	.main-gd-ctx[b-1vpka36yzy] {
+		top: 10%;
+		height: 85rem;
+	}
+	.itms-parent[b-1vpka36yzy] {
+		width: 620px;
+	}
+}
+@media only screen and (max-width: 915px) {
+	.head-hr > h1[b-1vpka36yzy] {
+		font-size: 46px;
+	}
+}
+@media only screen and (max-width: 750px) {
+	.itms-parent[b-1vpka36yzy] {
+		width: 540px;
+	}
+	.main-gd-ctx[b-1vpka36yzy] {
+		height: 72rem;
+	}
+}
+
+@media only screen and (max-width: 670px) {
+	.itms-parent[b-1vpka36yzy] {
+		width: 435px;
+	}
+	.head-hr[b-1vpka36yzy] {
+		width: 346px;
+	}
+	.head-hr > h1[b-1vpka36yzy] {
+		font-size: 25px;
+	}
+	.main-gd-ctx[b-1vpka36yzy] {
+		top: 7%;
+		height: 85rem;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	.itms-parent[b-1vpka36yzy] {
+		width: 340px;
+	}
+	.main-gd-ctx[b-1vpka36yzy] {
+		height: 128rem;
+	}
+}
+@media only screen and (max-width: 405px) {
+	.main-gd-ctx[b-1vpka36yzy] {
+		height: 70rem;
+	}
+	.head-hr[b-1vpka36yzy] {
+		width: 230px;
+	}
+	.head-hr > h1[b-1vpka36yzy] {
+		font-size: 22px;
+	}
+}
+@media only screen and (max-width: 390px) {
+	.itms-parent[b-1vpka36yzy] {
+		width: 276px;
+	}
+}

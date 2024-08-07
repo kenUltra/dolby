@@ -1,0 +1,16 @@
+.atmos {
+	position: absolute;
+	top: 0;
+}
+.gls {
+    display: block;
+    width: 100%;
+    height: 90vh;
+}
+.why-atmos {
+    position: relative;
+	height: 50vh;
+}
+.slides {
+	width: 95%;
+}

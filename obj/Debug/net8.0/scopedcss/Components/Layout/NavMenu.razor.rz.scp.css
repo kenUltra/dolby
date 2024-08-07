@@ -1,0 +1,157 @@
+.header[b-jy7ct5tujp] {
+	position: sticky;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: var(--use-h-nav);
+	z-index: 700;
+	transition: background-color 370ms cubic-bezier(0.28, 0.03, 0.76, 1.03), height 300ms cubic-bezier(0.28, 0.03, 0.76, 1.03);
+}
+.hr-head[b-jy7ct5tujp],
+.nav-wrap[b-jy7ct5tujp] {
+	--height-nav: 55px;
+	--use-h-nav: var(--height-nav);
+	width: 100%;
+}
+.nav-wrap[b-jy7ct5tujp] {
+	position: relative;
+	width: 875px;
+	height: var(--use-h-nav);
+	margin: var(--sl-pt) var(--auto-macth);
+	transition: height 420ms cubic-bezier(0.28, 0.03, 0.76, 1.03);
+}
+.nav-wrap[b-jy7ct5tujp],
+.logo[b-jy7ct5tujp],
+.lst-wp[b-jy7ct5tujp],
+.container-h[b-jy7ct5tujp],
+.logo-wrap[b-jy7ct5tujp] {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.nav-wrap[b-jy7ct5tujp] {
+	justify-content: space-between;
+}
+.wrap-act[b-jy7ct5tujp] {
+	width: 35px;
+	height: 35px;
+}
+.menu[b-jy7ct5tujp],
+.action[b-jy7ct5tujp] {
+	display: block;
+}
+.logo[b-jy7ct5tujp] {
+	position: relative;
+	width: 240px;
+	height: 100%;
+}
+.hero-logo[b-jy7ct5tujp] {
+	height: 40px;
+}
+.hero-logo[b-jy7ct5tujp],
+.logo-wrap[b-jy7ct5tujp],
+.dolbyLogo[b-jy7ct5tujp],
+.lst-wp[b-jy7ct5tujp],
+.wrap-oth[b-jy7ct5tujp],
+.ftt-logo[b-jy7ct5tujp] {
+	display: block;
+}
+.lst-wp[b-jy7ct5tujp],
+.ftt-logo[b-jy7ct5tujp],
+.dolbyLogo[b-jy7ct5tujp],
+.wrap-oth[b-jy7ct5tujp],
+.container-h[b-jy7ct5tujp],
+.logo-wrap[b-jy7ct5tujp] {
+	width: 100%;
+	height: 100%;
+}
+.logo-wrap[b-jy7ct5tujp] {
+	position: relative;
+	display: flex;
+}
+.hide-logo-ctx[b-jy7ct5tujp] {
+	display: none;
+}
+.dolbyLogo[b-jy7ct5tujp] {
+	fill: currentColor;
+	width: 110px;
+	height: 26px;
+	transform: translateY(3px);
+}
+.lst-wp[b-jy7ct5tujp] {
+	display: flex;
+	flex-direction: column;
+	gap: 4px 0px;
+}
+.menu-ex[b-jy7ct5tujp] {
+	width: 20px;
+	height: 2px;
+	border-radius: 20px;
+	background: var(--color-wh);
+	transition: background-color 450ms ease;
+}
+.container-h[b-jy7ct5tujp] {
+	justify-content: space-around;
+}
+.action[b-jy7ct5tujp] {
+	width: 130px;
+	height: 36px;
+}
+.icon[b-jy7ct5tujp] {
+	width: 25px;
+	height: 25px;
+}
+.wrap-oth > svg[b-jy7ct5tujp] {
+	fill: currentColor;
+	width: 100%;
+	height: 100%;
+}
+
+.link-hone[b-jy7ct5tujp] {
+	position: absolute;
+	inset: 0;
+}
+a[b-jy7ct5tujp] {
+	text-decoration: none;
+}
+.link-hone > a > span[b-jy7ct5tujp] {
+	display: block;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	cursor: none;
+}
+.lst-wp:hover .menu-ex[b-jy7ct5tujp] {
+	background: var(--color-gr-01);
+}
+
+@media only screen and (min-width: 997px) {
+	.nav-wrap[b-jy7ct5tujp] {
+		width: 90%;
+	}
+}
+@media only screen and (max-width: 915px) {
+	.nav-wrap[b-jy7ct5tujp] {
+		width: 715px;
+	}
+}
+@media only screen and (max-width: 730px) {
+	.nav-wrap[b-jy7ct5tujp] {
+		width: 486px;
+	}
+}
+@media only screen and (max-width: 500px) {
+	.nav-wrap[b-jy7ct5tujp] {
+		width: 90%;
+	}
+	.logo[b-jy7ct5tujp] {
+		width: 140px;
+	}
+	.action[b-jy7ct5tujp] {
+		width: 80px;
+	}
+	.dolbyLogo[b-jy7ct5tujp] {
+		width: 90px;
+	}
+}
+

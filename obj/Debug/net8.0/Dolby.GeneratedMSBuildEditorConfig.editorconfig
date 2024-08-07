@@ -1,0 +1,91 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Dolby
+build_property.RootNamespace = Dolby
+build_property.ProjectDir = B:\dolbyapp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = B:\dolbyapp
+build_property._RazorSourceGeneratorDebug = 
+
+[B:/dolbyapp/Components/App.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[B:/dolbyapp/Components/Layout/Sample.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcU2FtcGxlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[B:/dolbyapp/Components/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb3VudGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[B:/dolbyapp/Components/Pages/Error.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[B:/dolbyapp/Components/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[B:/dolbyapp/Components/Pages/Vision.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xWaXNpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[B:/dolbyapp/Components/Pages/Weather.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXZWF0aGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[B:/dolbyapp/Components/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[B:/dolbyapp/Components/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[B:/dolbyapp/Components/Layout/AtmosLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcQXRtb3NMYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-te8nn0ejk0
+
+[B:/dolbyapp/Components/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-i9p7955p5x
+
+[B:/dolbyapp/Components/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-jy7ct5tujp
+
+[B:/dolbyapp/Components/utils/Grid/GridParent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1x1dGlsc1xHcmlkXEdyaWRQYXJlbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-1vpka36yzy
+
+[B:/dolbyapp/Components/utils/Grid/Item.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1x1dGlsc1xHcmlkXEl0ZW0ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-u9z0dpo9m3
+
+[B:/dolbyapp/Components/utils/Intro/Intro.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1x1dGlsc1xJbnRyb1xJbnRyby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-7zxlxw7ubr
+
+[B:/dolbyapp/Components/utils/Intro/Stack.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1x1dGlsc1xJbnRyb1xTdGFjay5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-uns74deye3
+
+[B:/dolbyapp/Components/utils/Side/Side.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1x1dGlsc1xTaWRlXFNpZGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-ghmcspochf
+
+[B:/dolbyapp/Components/utils/Video/VideoLoop.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1x1dGlsc1xWaWRlb1xWaWRlb0xvb3AucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-jfy70wo226

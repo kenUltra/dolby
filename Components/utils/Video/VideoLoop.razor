@@ -1,0 +1,34 @@
+<div class="video-wrap">
+  <div class="detail">
+      <div class="main-br">
+           <div class="headline">
+               <h1>@title</h1>
+           </div>
+           <div class="subtitle">
+              <p>@subtitle</p>
+           </div>
+      </div>
+  </div>
+  <div class="cover-hidden">
+     <div class="loop">
+       <video width="450px" height="450px" autoplay loop muted>
+         <source src="/Assets/Atmos/visualizer-cornerText.webm" />
+       </video>
+     </div>
+  </div>
+  <div class="video-wp">
+     <div class="content-ctx"></div>
+  </div>
+  <div class="btn-wrapper">
+     <div class="control-btn"></div>
+  </div>
+</div>
+
+
+@code {
+    [Parameter]
+    public string title { get; set;} = "";
+
+    [Parameter]
+    public string? subtitle { get; set; } = "";
+}

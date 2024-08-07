@@ -1,0 +1,159 @@
+﻿@page "/"
+@rendermode InteractiveServer
+
+@*  public ElementReference board = default!; for ref module *@
+
+<PageTitle>Dolby Technogies, Sound</PageTitle>
+
+<section class="main-module-page" @onmousemove="@mouseAction" @ref="homeElement" @onwheel="changeHeader">
+
+<NavMenu navStyle="@nav" />
+
+<section class="section tech-labs">
+
+    <Intro TitleStack="@showTitle()" bgPath="@urlDolby()" fillPath="@urlDolby()">
+       @foreach(var cap in showList()) {
+          <Stack titleBar="@cap" action="(value)=> { data  = value; }" coverImage="@tinyVideo(cap)" />
+       }
+    </Intro>
+
+    <div class="cover-home">
+      <div class="cover-wrap">
+         <video src="@videoCover()" autoplay muted loop></video>
+      </div>
+   </div>
+
+</section>
+
+<div class="hidden-bx">
+   <div class="sm"></div>
+</div>
+<section class="section tech-info">
+   <GridParent />
+</section>
+
+<div class="cursor">
+   <div class="ctx-cr @onPage" style="--position-x: @xMouseString; --position-y: @yMouseString" ></div>
+</div>
+
+</section>
+@code {
+    /*
+      event effect mouse onmousedown onmouseup onmousemove
+    */
+    //ref = ElementReference 
+    ElementReference homeElement;
+    private string data { get; set; } = "";
+
+    private string onPage { get; set; } = "";
+    private string[] linkCover = ["/Assets/download/anyma_ambient_music.mp4", "/Assets/download/halo_ambient_landscape.webm", "/Assets/download/dune_homepage_ambient.webm"];
+
+    private string[] allTitle = ["Music comes alive in Dolby", "Immersive experience in Dolby", "Love gaming more in Dolby"];
+    private string[] allTeck = ["Music", "Gaming", "Movie & Tv"];
+
+    public double yMouse { get; set; } = 0!;
+    public double xMouse { get; set; } = 0!; 
+    private string nav {get; set; } = "";
+
+    private string yMouseString { get; set; } = "20px";
+    private string xMouseString { get; set; } = "20px";
+
+    public int ct {get; set;} = 0!;
+
+    public void changeHeader(MouseEventArgs e) {
+        if(e.OffsetY > 380){
+            this.nav = "fs-nav";
+        }else{
+            this.nav = "";
+        }
+        // Console.WriteLine("location "+ e.OffsetY);
+        /* Console.WriteLine("Make changes " + e.MovementY + " ly "  + e.OffsetY + "page " + e.PageY ); */
+    }
+
+
+    public string videoCover() {
+        string value;
+        string match = data;
+
+        if(data == "Music") {
+            value = linkCover[0];
+        }else if(data == "Gaming") {
+            value = linkCover[1];
+        }else if(data == "Movie & Tv") {
+            value = linkCover[2];
+        }else {
+            value = linkCover[0];
+        }
+        return value;
+    }
+    
+    public string showTitle() {
+        string outPut;
+        string changedData = data;
+
+        if(data == "Music") {
+            outPut = allTitle[0];
+        }else if(data == "Gaming") {
+            outPut = allTitle[1];
+        }else if(data == "Movie & Tv") {
+            outPut = allTitle[2];
+        }else {
+            outPut = allTitle[0];
+        }
+
+        return outPut;
+    }
+    
+    public string[] showList(){
+        return allTeck;
+    }
+
+    public string urlDolby(){
+        string url;
+        string match = data;
+
+        if(data == "Music") {
+
+            url = linkCover[0];
+        }else if(data == "Gaming") {
+
+            url = linkCover[1];
+        }else if(data == "Movie & Tv") {
+
+            url = linkCover[2];
+        }else {
+            url = "/Assets/download/anyma_ambient_music.mp4";
+        }
+
+        return "url(" + url + ")";
+    }
+    /*
+    private void Move(){
+       ct++;
+    }
+    */
+    private void checkStat() {
+        Console.WriteLine("from main "  );
+    }
+    private string tinyVideo(string content){
+        string res = "";
+        if(content == "Music"){
+          res =  this.linkCover[0];
+        }else if(content == "Gaming") {
+            res = this.linkCover[1];
+        }else{
+            res = this.linkCover[2];
+        }
+        return res;
+    }
+
+    private void mouseAction(MouseEventArgs mouse) {
+        this.yMouse = mouse.PageX - 10;
+        this.xMouse = mouse.PageY - 10;
+
+        xMouseString = this.xMouse + "px";
+        yMouseString = this.yMouse + "px"; 
+         //   onPage = "remove-crs";
+        // Console.WriteLine("location x " + mouse.ClientX + " y: " + mouse.ClientY );
+    }
+}

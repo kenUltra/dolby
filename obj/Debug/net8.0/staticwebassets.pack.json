@@ -1,0 +1,149 @@
+{
+  "Files": [
+    {
+      "Id": "B:\\dolbyapp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Dolby.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Dolby.bundle.scp.css"
+    },
+    {
+      "Id": "B:\\dolbyapp\\wwwroot\\4593193_audio_dolby_music_sound_speaker_icon.svg",
+      "PackagePath": "staticwebassets\\4593193_audio_dolby_music_sound_speaker_icon.svg"
+    },
+    {
+      "Id": "B:\\dolbyapp\\wwwroot\\Assets\\Atmos\\ambientvideo_naturesfury_v02.webm",
+      "PackagePath": "staticwebassets\\Assets\\Atmos\\ambientvideo_naturesfury_v02.webm"
+    },
+    {
+      "Id": "B:\\dolbyapp\\wwwroot\\Assets\\Atmos\\visualizer-cornerText.webm",
+      "PackagePath": "staticwebassets\\Assets\\Atmos\\visualizer-cornerText.webm"
+    },
+    {
+      "Id": "B:\\dolbyapp\\wwwroot\\Assets\\Natures_Fury_Rebrand_SDR_FHD_24_H264-5Mbps_Binaural_AAC-256Kbps.webm",
+      "PackagePath": "staticwebassets\\Assets\\Natures_Fury_Rebrand_SDR_FHD_24_H264-5Mbps_Binaural_AAC-256Kbps.webm"
+    },
+    {
+      "Id": "B:\\dolbyapp\\wwwroot\\Assets\\cover\\01_halo.jpg",
+      "PackagePath": "staticwebassets\\Assets\\cover\\01_halo.jpg"
+    },
+    {
+      "Id": "B:\\dolbyapp\\wwwroot\\Assets\\cover\\02_atmos.jpg",
+      "PackagePath": "staticwebassets\\Assets\\cover\\02_atmos.jpg"
+    },
+    {
+      "Id": "B:\\dolbyapp\\wwwroot\\Assets\\cover\\03_anyma.jpg",
+      "PackagePath": "staticwebassets\\Assets\\cover\\03_anyma.jpg"
+    },
+    {
+      "Id": "B:\\dolbyapp\\wwwroot\\Assets\\cover\\04_dune.jpg",
+      "PackagePath": "staticwebassets\\Assets\\cover\\04_dune.jpg"
+    },
+    {
+      "Id": "B:\\dolbyapp\\wwwroot\\Assets\\cover\\06_devices.jpg",
+      "PackagePath": "staticwebassets\\Assets\\cover\\06_devices.jpg"
+    },
+    {
+      "Id": "B:\\dolbyapp\\wwwroot\\Assets\\cover\\07_jlo.webp",
+      "PackagePath": "staticwebassets\\Assets\\cover\\07_jlo.webp"
+    },
+    {
+      "Id": "B:\\dolbyapp\\wwwroot\\Assets\\cover\\08_ed.jpg",
+      "PackagePath": "staticwebassets\\Assets\\cover\\08_ed.jpg"
+    },
+    {
+      "Id": "B:\\dolbyapp\\wwwroot\\Assets\\cover\\09_cinema.webp",
+      "PackagePath": "staticwebassets\\Assets\\cover\\09_cinema.webp"
+    },
+    {
+      "Id": "B:\\dolbyapp\\wwwroot\\Assets\\cover\\dolbyvision.jpg",
+      "PackagePath": "staticwebassets\\Assets\\cover\\dolbyvision.jpg"
+    },
+    {
+      "Id": "B:\\dolbyapp\\wwwroot\\Assets\\download\\DV_ambient_V2_1024x576.webm",
+      "PackagePath": "staticwebassets\\Assets\\download\\DV_ambient_V2_1024x576.webm"
+    },
+    {
+      "Id": "B:\\dolbyapp\\wwwroot\\Assets\\download\\anyma_ambient_music.mp4",
+      "PackagePath": "staticwebassets\\Assets\\download\\anyma_ambient_music.mp4"
+    },
+    {
+      "Id": "B:\\dolbyapp\\wwwroot\\Assets\\download\\dolby-vision-slider-R3.webm",
+      "PackagePath": "staticwebassets\\Assets\\download\\dolby-vision-slider-R3.webm"
+    },
+    {
+      "Id": "B:\\dolbyapp\\wwwroot\\Assets\\download\\dune_homepage_ambient.webm",
+      "PackagePath": "staticwebassets\\Assets\\download\\dune_homepage_ambient.webm"
+    },
+    {
+      "Id": "B:\\dolbyapp\\wwwroot\\Assets\\download\\halo_ambient_landscape.webm",
+      "PackagePath": "staticwebassets\\Assets\\download\\halo_ambient_landscape.webm"
+    },
+    {
+      "Id": "B:\\dolbyapp\\wwwroot\\Assets\\download\\web-1-intro-v49.webm",
+      "PackagePath": "staticwebassets\\Assets\\download\\web-1-intro-v49.webm"
+    },
+    {
+      "Id": "B:\\dolbyapp\\wwwroot\\Assets\\vision\\GamingProSite_VisionDemo_v02_FHD_30_H264.webm",
+      "PackagePath": "staticwebassets\\Assets\\vision\\GamingProSite_VisionDemo_v02_FHD_30_H264.webm"
+    },
+    {
+      "Id": "B:\\dolbyapp\\wwwroot\\Dolby.png",
+      "PackagePath": "staticwebassets\\Dolby.png"
+    },
+    {
+      "Id": "B:\\dolbyapp\\wwwroot\\Dolby_extra_sm.png",
+      "PackagePath": "staticwebassets\\Dolby_extra_sm.png"
+    },
+    {
+      "Id": "B:\\dolbyapp\\wwwroot\\Dolby_large.png",
+      "PackagePath": "staticwebassets\\Dolby_large.png"
+    },
+    {
+      "Id": "B:\\dolbyapp\\wwwroot\\Dolby_md.png",
+      "PackagePath": "staticwebassets\\Dolby_md.png"
+    },
+    {
+      "Id": "B:\\dolbyapp\\wwwroot\\Dolby_sm.png",
+      "PackagePath": "staticwebassets\\Dolby_sm.png"
+    },
+    {
+      "Id": "B:\\dolbyapp\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "B:\\dolbyapp\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "B:\\dolbyapp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "B:\\dolbyapp\\wwwroot\\dolby_icon.ico",
+      "PackagePath": "staticwebassets\\dolby_icon.ico"
+    },
+    {
+      "Id": "B:\\dolbyapp\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "B:\\dolbyapp\\wwwroot\\manifest.json",
+      "PackagePath": "staticwebassets\\manifest.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Dolby.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Dolby.props",
+      "PackagePath": "build\\Dolby.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Dolby.props",
+      "PackagePath": "buildMultiTargeting\\Dolby.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Dolby.props",
+      "PackagePath": "buildTransitive\\Dolby.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

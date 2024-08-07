@@ -1,0 +1,50 @@
+<div class="main-grid">
+     <div class=hidden-ft></div>
+     <div class="content">
+         <div class="main-gd-ctx">
+            <div class="itms-parent">
+              @* The grid template *@
+              @foreach(var grid in allGrid ){
+                 <Item headline="@grid.headline" imageDetail="@grid.imageDetail" cls="@grid.headline" />
+              }
+            </div>
+         </div>
+     </div>
+     <div class=hidden-ft></div>
+     <div class="h-title">
+          <div class="content-title">
+             <div class="head-hr">
+                 <h1>Experince the difference in Dolby</h1>
+             </div>
+          </div>
+     </div>
+     <div class=hidden-ft ></div>
+</div>
+
+@code {
+    List<GridContent> allGrid = new(
+        [ 
+        new( headline: "Halo Infinite", imageDetail: "/Assets/cover/01_halo.jpg"),
+        new( headline: "What is Dolby Atmos?", imageDetail: "/Assets/cover/02_atmos.jpg"),
+        new( headline: "Dune: Part II  in Dolby Vision and Dolby Atmos", imageDetail: "/Assets/cover/04_dune.jpg"),
+        new( headline: "Anyma in Dolby Atmos", imageDetail: "/Assets/cover/03_anyma.jpg"),
+        new( headline: "TVs and Soundbars with Dolby", imageDetail: "/Assets/cover/06_devices.jpg"),
+        new( headline: "What is Dolby Vision?", imageDetail: "/Assets/cover/dolbyvision.jpg"),
+        new( headline: "Ed Sheeran in Dolby Atmos", imageDetail: "/Assets/cover/08_ed.jpg"),
+        new( headline: "Jennifer Lopez in Dolby Atmos", imageDetail: "/Assets/cover/07_jlo.webp"),
+        new( headline: "Experince Dolby Cinema", imageDetail: "Assets/cover/09_cinema.webp")
+        ]
+    );
+
+    public void test(){
+        Console.WriteLine("The detail ");
+    }
+    public class GridContent {
+        public string? headline { get; set; }
+        public string?  imageDetail { get; set; }
+        public GridContent(string headline,string  imageDetail){
+            this.headline = headline;
+            this.imageDetail = imageDetail;
+        }
+    }
+}

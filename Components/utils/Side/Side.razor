@@ -1,0 +1,54 @@
+
+<div class="why-atmos">
+    <div class="wp-bt">
+       <div class="gls-st"></div>
+    </div>
+    <div class="detail-ats">
+       <div class="sides">
+           <div class="left-side">
+              <div class="detail">
+
+                <h5>@notice</h5>
+
+                <h1>@headline</h1>
+
+                <span class="top-content">
+                  <p>@content</p>
+                </span>
+
+                <span class="other-content">
+                  <p>@secondContent</p>
+                </span>
+
+              </div>
+           </div>
+           <div class="right-side">
+             <div class="description-page">
+                <video width="450px" height="450px" autoplay muted loop>
+                  <source src="/Assets/Atmos/ambientvideo_naturesfury_v02.webm" />
+                </video>
+             </div>
+           </div>
+       </div>
+    </div>
+    <div class="wp-bt">
+       <div class="gls-st">
+          <div class="color-bg"></div>
+       </div>
+    </div>
+</div>
+
+@code {
+   [Parameter]
+   public string headline {get; set;} = "";
+
+   [Parameter]
+   public string notice {get; set;} = " ";
+
+   [Parameter]
+   public string content {get; set;} = "";
+
+   [Parameter]
+   public string? secondContent {get; set;} = "";
+
+}

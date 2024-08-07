@@ -1,0 +1,20 @@
+.hero-section {
+	width: 100%;
+}
+.Dolby-page,
+.mouse-event {
+	display: block;
+}
+.mouse-dolby-change {
+	position: fixed;
+	top: 0px;
+	height: 30px;
+    width: 30px;
+    border-radius: 50%;
+	background: color(display-p3 0.26 0.01 0.57);
+    transition: all 290ms cubic-bezier(0.32, 0.06, 1, 0.98);
+	z-index: 750;
+}
+.law-content{
+	margin-top: 4rem;
+}

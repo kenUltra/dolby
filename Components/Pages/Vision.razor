@@ -1,0 +1,17 @@
+@page "/dolby-atmos"
+
+
+<PageTitle>Dolby Atmos Technogies</PageTitle>
+
+
+<NavMenu />
+
+<main class="main wrap-page-dolby" @onwheel="changeHeader">
+    <AtmosLayout />
+</main>
+
+@code {
+    public void changeHeader(MouseEventArgs e){
+         Console.WriteLine("location "+ e.OffsetY);
+    }
+}
